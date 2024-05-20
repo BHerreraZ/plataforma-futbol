@@ -1,0 +1,29 @@
+---
+import { Image } from 'astro:assets';
+import Logo from '../images/futgol.webp';
+---
+<header class="bg-slate-200 py-2 px-10 flex items-center fixed top-0 w-full justify-between">
+    <a class="flex flex-grow basis-0" href="#">
+        <div>
+            <Image src={Logo} 
+            alt="Un pájaro sentado sobre un nido de huevos."
+            width="120"
+            />
+        </div>
+    </a>
+    <nav>
+        <ul class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2 [&>li>a]:rounded">
+            <li><a class="hover:bg-slate-300" href="#">Partidos</a></li>
+            <li><a class="hover:bg-slate-300" href="#">Posiciones</a></li>
+            <li><a class="hover:bg-slate-300" href="#">Evolución</a></li>
+            <li><a class="hover:bg-slate-300" href="#">Equipos</a></li>
+            <li><a class="hover:bg-slate-300" href="#">Estadísticas</a></li>
+        </ul>
+    </nav>
+    <nav class="flex flex-grow justify-end">
+        <ul class="flex text-sm [&>li>a]:inline-block [&>li>a]:px-4 [&>li>a]:py-2 [&>li>a]:rounded">
+            <li><a class="hover:bg-slate-300" href="#">Claro</a></li>
+            <li><a class="hover:bg-slate-300" href="#">Posiciones</a></li>
+        </ul>
+    </nav>
+</header>
