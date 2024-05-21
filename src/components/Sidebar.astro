@@ -1,0 +1,54 @@
+---
+const menuItems = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/' },
+  { name: 'Services', href: '/' },
+  { name: 'Contact', href: '/' },
+];
+
+const clubs = [
+    { name: 'Audax Italiano', href: '/' },
+    { name: 'Cobreloa', href: '/' },
+    { name: 'Cobresal', href: '/' },
+    { name: 'Colo Colo', href: '/' },
+    { name: 'Copiapó', href: '/' },
+    { name: 'Coquimbo Unido', href: '/' },
+    { name: 'Deportes Iquique', href: '/' },
+    { name: 'Everton CD', href: '/' },
+    { name: 'Huachipato', href: '/' },
+    { name: 'Ñublense', href: '/' },
+    { name: "O'Higgins", href: '/' },
+    { name: 'Palestino', href: '/' },
+    { name: 'Universidad Católica', href: '/' },
+    { name: 'Universidad de Chile', href: '/' },
+    { name: 'Unión Española', href: '/' },
+    { name: 'Unión La Calera', href: '/' },
+];
+---
+
+<aside class="w-64 h-screen bg-gray-800 flex flex-col">
+  <div class="p-4">
+    <h2 class="text-2xl font-bold">My Sidebar</h2>
+  </div>
+  <!-- <nav class="flex-1 px-2 space-y-1">
+    {menuItems.map(item => (
+      <a
+        href={item.href}
+        class="block px-4 py-2 rounded-md hover:bg-gray-700"
+      >
+        {item.name}
+      </a>
+    ))}
+  </nav> -->
+  <nav class="m-5 p-2 h-max bg-slate-200 rounded">
+    <h3 class="text-3xl text-center pb-3">Clubes</h3>
+    {clubs.map(club => (
+        <a
+          href={club.href}
+          class="block px-4 py-2 rounded-md hover:bg-gray-700 hover:text-white"
+        >
+          {club.name}
+        </a>
+      ))}
+  </nav>
+</aside>
