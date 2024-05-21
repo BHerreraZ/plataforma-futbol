@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Navegation from '../components/Navegation.astro';
 import Sidebar from '../components/Sidebar.astro';
+import RightAside from '../components/RightAside.astro';
 const { pageTitle } = Astro.props;
 ---
 <html lang="es">
@@ -22,6 +23,7 @@ const { pageTitle } = Astro.props;
         <h1 class="text-4xl text-blue-500 pt-16">{pageTitle}</h1>
       <slot />
       </main>
+      <RightAside />
     </div>
   </body>
 </html>
