@@ -3,33 +3,59 @@ import { Image } from 'astro:assets';
 import LeagueTrophy from '../images/trofeo-liga.png';
 import ChileanCup from '../images/copa-chile.png';
 import SuperCup from '../images/supercopa.png';
+
+const winners = {
+    league: {winner: 'Huachipato', src: '/clubs-emblems/Huachipato.svg'},
+    chilian_cup: {winner: 'Colo-Colo', src: '/clubs-emblems/Colo-Colo.svg'},
+    super_cup: {winner: 'Por Definir', src: '/images/recanlenderizado.png'},
+};
 ---
 <aside class="w-64 h-screen bg-gray-200 p-4 pt-16">
 
     <nav class="mt-4 space-y-2">
         <h3 class="text-center block px-4 py-2 rounded-md bg-white">Campeonato</h3>
-        <div class="block px-4 py-2 rounded-md bg-white">
+        <div class="flex px-8 py-2 rounded-md bg-white justify-between items-center">
             <Image src={LeagueTrophy} 
-            alt="Un pájaro sentado sobre un nido de huevos."
+            alt="Trofeo del Campeonato."
             height="120"
+            loading="eager"
+            />
+            <Image src={winners.league.src} 
+            alt="Equipo ganador."
+            width="60"
+            height="60"
             loading="eager"
             />
         </div>
         <h3 class="text-center block px-4 py-2 rounded-md bg-white">Copa Chile</h3>
-        <div class="block px-4 py-2 rounded-md bg-white">
+        <div class="flex px-8 py-2 rounded-md bg-white justify-between items-center">
             <Image src={ChileanCup} 
-            alt="Un pájaro sentado sobre un nido de huevos."
+            alt="Trofeo del Campeonato."
             height="160"
+            loading="eager"
+            />
+            <Image src={winners.chilian_cup.src} 
+            alt="Equipo ganador."
+            width="60"
+            height="60"
             loading="eager"
             />
         </div>
         <h3 class="text-center block px-4 py-2 rounded-md bg-white">Supercopa</h3>
-        <div class="block px-4 py-2 rounded-md bg-white">
+        <div class="flex px-8 py-2 rounded-md bg-white justify-between items-center">
             <Image src={SuperCup} 
-            alt="Un pájaro sentado sobre un nido de huevos."
+            alt="Trofeo del Campeonato."
             height="160"
             loading="eager"
             />
+            
+              <Image src={winners.super_cup.src} 
+            alt="Equipo ganador."
+            width="60"
+            height="60"
+            loading="eager"
+            />  
+            
         </div>
       
     </nav>
