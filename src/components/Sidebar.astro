@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets';
+
 const menuItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/' },
@@ -7,22 +9,22 @@ const menuItems = [
 ];
 
 const clubs = [
-    { name: 'Audax Italiano', href: '/' },
-    { name: 'Cobreloa', href: '/' },
-    { name: 'Cobresal', href: '/' },
-    { name: 'Colo Colo', href: '/' },
-    { name: 'Copiapó', href: '/' },
-    { name: 'Coquimbo Unido', href: '/' },
-    { name: 'Deportes Iquique', href: '/' },
-    { name: 'Everton CD', href: '/' },
-    { name: 'Huachipato', href: '/' },
-    { name: 'Ñublense', href: '/' },
-    { name: "O'Higgins", href: '/' },
-    { name: 'Palestino', href: '/' },
-    { name: 'Universidad Católica', href: '/' },
-    { name: 'Universidad de Chile', href: '/' },
-    { name: 'Unión Española', href: '/' },
-    { name: 'Unión La Calera', href: '/' },
+    { name: 'Audax Italiano', href: '/', src: '/clubs-emblems/Audax-Italiano.svg'},
+    { name: 'Cobreloa', href: '/', src: '/clubs-emblems/Cobreloa.svg' },
+    { name: 'Cobresal', href: '/', src: '/clubs-emblems/Cobresal.svg' },
+    { name: 'Colo Colo', href: '/', src: '/clubs-emblems/Colo-Colo.svg' },
+    { name: 'Copiapó', href: '/', src: '/clubs-emblems/Copiapo.svg' },
+    { name: 'Coquimbo Unido', href: '/', src: '/clubs-emblems/Coquimbo-Unido.svg' },
+    { name: 'Deportes Iquique', href: '/', src: '/clubs-emblems/Iquique.svg' },
+    { name: 'Everton CD', href: '/', src: '/clubs-emblems/Everton.svg' },
+    { name: 'Huachipato', href: '/', src: '/clubs-emblems/Huachipato.svg' },
+    { name: 'Ñublense', href: '/', src: '/clubs-emblems/Nublense.svg' },
+    { name: "O'Higgins", href: '/', src: '/clubs-emblems/OHiggins.svg' },
+    { name: 'Palestino', href: '/', src: '/clubs-emblems/Palestino.svg' },
+    { name: 'Universidad Católica', href: '/', src: '/clubs-emblems/U-Catolica.svg' },
+    { name: 'Universidad de Chile', href: '/', src: '/clubs-emblems/U-De-Chile.svg' },
+    { name: 'Unión Española', href: '/', src: '/clubs-emblems/U-La-Calera.svg' },
+    { name: 'Unión La Calera', href: '/', src: '/clubs-emblems/Union-Espanola.svg' },
 ];
 ---
 
@@ -45,7 +47,17 @@ const clubs = [
           href={club.href}
           class="block px-4 py-2 rounded-md hover:bg-gray-700 hover:text-white"
         >
-          {club.name}
+            <div class="flex items-center">
+                <div class="pr-1">
+                    <Image src={club.src}
+                    alt="Un pájaro sentado sobre un nido de huevos."
+                    width="19"
+                    height="19"
+                    loading="eager"
+                    />
+                </div>
+                {club.name}
+           </div>
         </a>
       ))}
   </nav>
