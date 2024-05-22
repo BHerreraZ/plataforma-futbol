@@ -1,7 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import MatchSchedule from '../components/MatchSchedule.jsx'
 const pageTitle = "Torneo";
 ---
 <BaseLayout pageTitle={pageTitle}>
 	<p class="mt-4 text-gray-700">Posiciones de los equipos</p>	
+	<section>
+		<MatchSchedule client:load />
+	</section>
 </BaseLayout>
