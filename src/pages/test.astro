@@ -1,0 +1,81 @@
+---
+import EvolutionChart from '../components/EvolutionChart';
+import '../styles/global.css';
+---
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 1200px;">
+        <canvas id="myChart" width="1200" height="600" style="display: block; box-sizing: border-box; height: 600px; width: 1200px;"></canvas>
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+      
+        const data = {
+            labels: ['1°', '2°', '3°', '4°', '5°', '6°', '7°', '8°', '9°', '10°','11°', '12°', '13°', '14°', '15°', '16°', '17°', '18°', '19°', '20°','21°', '22°', '23°', '24°', '25°', '26°', '27°', '28°', '29°', '30°', ''],
+            datasets: [
+                {
+                    label: 'Huachipato',
+                    data: ['3°', '3°', '1°', '1°', '1°', '2°', '3°', '2°', '1°', '1°', '2°', '2°', '2°', '1°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '2°', '3°', '2°', '1°'],
+                },
+                {
+                    label: 'Cobresal',
+                    data: ['4°','6°', '4°', '4°', '5°','6°', '5°', '6°', '5°', '2°', '1°', '1°', '1°', '2°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '1°', '2°'],
+                }
+            ]
+        };
+
+        new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: {
+                layout: {
+                    padding: {
+                        left: 20,
+                        right: 20,
+                        top: 10,
+                        bottom: 10
+                    },
+                },
+                scales: {
+                    x: {
+                        ticks: {
+                            padding: 10
+                        },
+                        grid: {
+                            display: true,
+                        },
+                    },
+                    y: {
+                        type: 'category',
+                        labels: ['', '1°', '2°', '3°', '4°', '5°', '6°', '7°', '8°', '9°', '10°','11°', '12°', '13°', '14°', '15°', '16°'],
+                        ticks: {
+                            padding: 10,
+                            stepSize: 1
+                        },
+                        grid: {
+                            display: true,
+                        },
+                    },
+                },
+                elements: {
+                    line: {
+                        fill: false,
+                    },
+                },
+                interaction: {
+                    intersect: false,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
