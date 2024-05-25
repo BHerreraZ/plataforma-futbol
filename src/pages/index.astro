@@ -1,11 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MatchSchedule from '../components/MatchSchedule.jsx'
+import EvolutionChart from '../components/EvolutionChart.astro'
 const pageTitle = "Torneo";
 ---
 <BaseLayout pageTitle={pageTitle}>
-	<p class="mt-4 text-gray-700">Posiciones de los equipos</p>	
 	<section>
+		<h2 class="text-3xl text-gray-800 pt-12">Programación</h2>
+		<p class=" text-gray-700">Próximos compromisos de cada equipo</p>	
 		<MatchSchedule client:load />
+	</section>
+	<section>
+		<h2 class="text-3xl text-gray-800 pt-12">Evolución</h2>
+		<p class=" text-gray-700">Progreso del equipo a través de la temporada</p>	
+		<div class="container mx-auto p-4">
+			<EvolutionChart />
+		</div>
+		
 	</section>
 </BaseLayout>
