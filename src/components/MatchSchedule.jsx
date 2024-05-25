@@ -1,8 +1,12 @@
 import { useState } from 'react';
 import matches from '../data/matches.json';
 
+const tiempoTranscurrido = Date.now();
+const hoy = new Date(tiempoTranscurrido);
+//hoy.toLocaleDateString()
+
 const MatchSchedule = () => {
-  const [selectedRound, setSelectedRound] = useState(5); // Default to round 5
+  const [selectedRound, setSelectedRound] = useState(1);
 
   
   const selectedMatches = matches.rounds.find((round) => round.round === selectedRound).matches;
@@ -13,7 +17,7 @@ const MatchSchedule = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <div className="hidden  xl:flex space-x-2 mb-4 overflow-x-auto justify-between">
+      <div className="hidden xl:flex space-x-2 mb-4 overflow-x-auto justify-between">
         {matches.rounds.map((round) => (
           <button
             key={round.round}
@@ -45,19 +49,27 @@ const MatchSchedule = () => {
         <div className="grid grid-cols-2 gap-x-8">
           <div>
             {firstColumnMatches.map((match, index) => (
-              <div key={index} className="flex justify-between bg-gray-100 p-2 rounded mb-2">
-                <span>{match.home}</span>
-                <span>vs</span>
-                <span>{match.away}</span>
+              <div>
+                <div key={index}>
+                  <h5 className='text-xs mb-1' >12/03/2024</h5>
+                  <div  className="flex justify-between bg-gray-100 p-2 rounded mb-3">
+                    <span>{match.home}</span>
+                    <span>vs</span>
+                    <span>{match.away}</span>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
           <div>
             {secondColumnMatches.map((match, index) => (
-              <div key={index} className="flex justify-between bg-gray-100 p-2 rounded mb-2">
-                <span>{match.home}</span>
-                <span>vs</span>
-                <span>{match.away}</span>
+              <div>
+                <h5 className='text-xs mb-1' >12/03/2024</h5>
+                <div key={index} className="flex justify-between bg-gray-100 p-2 rounded mb-3">
+                  <span>{match.home}</span>
+                  <span>vs</span>
+                  <span>{match.away}</span>
+                </div>
               </div>
             ))}
           </div>
