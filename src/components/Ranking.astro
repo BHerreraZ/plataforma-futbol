@@ -1,0 +1,259 @@
+---
+interface Equipo {
+  nombre: string;
+  partidosJugados: number;
+  partidosGanados: number;
+  partidosEmpatados: number;
+  partidosPerdidos: number;
+  golesFavor: number;
+  golesContra: number;
+  diferenciaGoles: number;
+  puntaje: number;
+}
+
+// Lista de equipos con sus estadísticas (ejemplo de datos)
+const equipos: Equipo[] = [
+{
+ nombre: "U. de Chile",
+ partidosJugados: 13,
+ partidosGanados: 8,
+ partidosEmpatados: 4,
+ partidosPerdidos: 1,
+ golesFavor: 25,
+ golesContra: 12,
+ diferenciaGoles: 13,
+ puntaje: 28
+},
+{
+ nombre: "Coquimbo Unido",
+ partidosJugados: 13,
+ partidosGanados: 8,
+ partidosEmpatados: 3,
+ partidosPerdidos: 2,
+ golesFavor: 21,
+ golesContra: 13,
+ diferenciaGoles: 8,
+ puntaje: 27
+},
+{
+ nombre: "U. Católica",
+ partidosJugados: 14,
+ partidosGanados: 8,
+ partidosEmpatados: 3,
+ partidosPerdidos: 3,
+ golesFavor: 21,
+ golesContra: 13,
+ diferenciaGoles: 8,
+ puntaje: 27
+},
+{
+ nombre: "Colo Colo",
+ partidosJugados: 14,
+ partidosGanados: 8,
+ partidosEmpatados: 2,
+ partidosPerdidos: 4,
+ golesFavor: 24,
+ golesContra: 12,
+ diferenciaGoles: 12,
+ puntaje: 26
+},
+{
+ nombre: "Dep. Iquique",
+ partidosJugados: 14,
+ partidosGanados: 7,
+ partidosEmpatados: 3,
+ partidosPerdidos: 4,
+ golesFavor: 26,
+ golesContra: 23,
+ diferenciaGoles: 3,
+ puntaje: 24
+},
+{
+ nombre: "Palestino",
+ partidosJugados: 13,
+ partidosGanados: 6,
+ partidosEmpatados: 3,
+ partidosPerdidos: 4,
+ golesFavor: 18,
+ golesContra: 10,
+ diferenciaGoles: 8,
+ puntaje: 21
+},
+{
+ nombre: "Unión Española",
+ partidosJugados: 13,
+ partidosGanados: 6,
+ partidosEmpatados: 3,
+ partidosPerdidos: 4,
+ golesFavor: 26,
+ golesContra: 21,
+ diferenciaGoles: 5,
+ puntaje: 21
+},
+{
+ nombre: "Everton",
+ partidosJugados: 14,
+ partidosGanados: 6,
+ partidosEmpatados: 3,
+ partidosPerdidos: 5,
+ golesFavor: 22,
+ golesContra: 22,
+ diferenciaGoles: 0,
+ puntaje: 21
+},
+{
+ nombre: "O'Higgins",
+ partidosJugados: 14,
+ partidosGanados: 4,
+ partidosEmpatados: 4,
+ partidosPerdidos: 6,
+ golesFavor: 17,
+ golesContra: 25,
+ diferenciaGoles: -8,
+ puntaje: 16
+},
+{
+ nombre: "Huachipato",
+ partidosJugados: 14,
+ partidosGanados: 4,
+ partidosEmpatados: 4,
+ partidosPerdidos: 6,
+ golesFavor: 11,
+ golesContra: 19,
+ diferenciaGoles: -8,
+ puntaje: 16
+},
+{
+ nombre: "Ñublense",
+ partidosJugados: 13,
+ partidosGanados: 4,
+ partidosEmpatados: 3,
+ partidosPerdidos: 6,
+ golesFavor: 23,
+ golesContra: 20,
+ diferenciaGoles: 3,
+ puntaje: 15
+},
+{
+ nombre: "Audax Italiano",
+ partidosJugados: 14,
+ partidosGanados: 4,
+ partidosEmpatados: 2,
+ partidosPerdidos: 8,
+ golesFavor: 17,
+ golesContra: 20,
+ diferenciaGoles: -3,
+ puntaje: 14
+},
+{
+ nombre: "Cobreloa",
+ partidosJugados: 14,
+ partidosGanados: 4,
+ partidosEmpatados: 2,
+ partidosPerdidos: 8,
+ golesFavor: 14,
+ golesContra: 33,
+ diferenciaGoles: -19,
+ puntaje: 14
+},
+{
+ nombre: "Cobresal",
+ partidosJugados: 14,
+ partidosGanados: 2,
+ partidosEmpatados: 6,
+ partidosPerdidos: 6,
+ golesFavor: 21,
+ golesContra: 25,
+ diferenciaGoles: -4,
+ puntaje: 12
+},
+{
+ nombre: "Dep. Copiapó",
+ partidosJugados: 14,
+ partidosGanados: 4,
+ partidosEmpatados: 0,
+ partidosPerdidos: 10,
+ golesFavor: 19,
+ golesContra: 26,
+ diferenciaGoles: -7,
+ puntaje: 12
+},
+{
+ nombre: "Unión La Calera",
+ partidosJugados: 13,
+ partidosGanados: 2,
+ partidosEmpatados: 3,
+ partidosPerdidos: 8,
+ golesFavor: 11,
+ golesContra: 22,
+ diferenciaGoles: -11,
+ puntaje: 8
+},
+  // Agrega más equipos según sea necesario
+];
+---
+
+<table class="bg-white rounded mx-auto">
+  <thead>
+    <tr>
+      <th class="py-1 px-4 border bg-gray-200"></th>
+      <th class="py-1 px-4 border bg-gray-200">Equipo</th>
+      <th class="py-1 px-2 border bg-gray-200">PJ</th>
+      <th class="py-1 px-2 border bg-gray-200">PG</th>
+      <th class="py-1 px-2 border bg-gray-200">PE</th>
+      <th class="py-1 px-2 border bg-gray-200">PP</th>
+      <th class="py-1 px-2 border bg-gray-200">GF</th>
+      <th class="py-1 px-2 border bg-gray-200">GC</th>
+      <th class="py-1 px-2 border bg-gray-200">DG</th>
+      <th class="py-1 px-4 border bg-gray-200">Puntos</th>
+    </tr>
+  </thead>
+  <tbody>
+    {equipos.map((equipo, index) => {
+        // Estilos condicionales para las filas
+        let rowClass = 'text-center';
+        if (index < 2) {
+          rowClass += ' bg-green-100';
+        } else if (index < 3) {
+          rowClass += ' bg-yellow-100';
+        } else if (index < 7){
+          rowClass += ' bg-blue-100';
+        } else if (index > 13){
+          rowClass += ' bg-red-100';
+        }
+        return (
+      <tr class={rowClass}>
+        <td class="py-1 px-2 border bg-gray-100"><strong>{index+1}°</strong></td>
+        <td class="py-1 px-4 border"><strong>{equipo.nombre}</strong></td>
+        <td class="py-1 px-2 border">{equipo.partidosJugados}</td>
+        <td class="py-1 px-2 border">{equipo.partidosGanados}</td>
+        <td class="py-1 px-2 border">{equipo.partidosEmpatados}</td>
+        <td class="py-1 px-2 border">{equipo.partidosPerdidos}</td>
+        <td class="py-1 px-2 border">{equipo.golesFavor}</td>
+        <td class="py-1 px-2 border">{equipo.golesContra}</td>
+        <td class="py-1 px-2 border">{equipo.diferenciaGoles}</td>
+        <td class="py-1 px-4 border bg-white"><strong>{equipo.puntaje}</strong></td>
+      </tr>
+      );
+    })}
+  </tbody>
+</table>
+<footer class="mt-3 flex gap-3 justify-center">
+    <div class="legend1 flex items-center">
+        <div class="mr-1 bg-green-100 w-4 h-4 border-gray-200 border"></div>
+        <span class="text-xs">Grupos Copa Libertadores</span>
+    </div>
+    <div class="legend2 flex items-center">
+        <div class="mr-1 bg-yellow-100 w-4 h-4 border-gray-200 border"></div>
+        <span class="text-xs">Fase 2 Copa Libertadores</span>
+    </div>
+    <div class="legend3 flex items-center">
+        <div class="mr-1 bg-blue-100 w-4 h-4 border-gray-200 border"></div>
+        <span class="text-xs">Copa Sudamericana</span>
+    </div>
+    <div class="legend4 flex items-center">
+        <div class="mr-1 bg-red-100 w-4 h-4 border-gray-200 border"></div>
+        <span class="text-xs">Descenso</span>
+    </div>
+</footer>
+
