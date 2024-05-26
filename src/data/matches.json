@@ -3,406 +3,406 @@
       {
         "round": 1,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Ñublense", "away": "Coquimbo Unido"},
+          {"home": "U. Española", "away": "Colo Colo"},
+          {"home": "Copiapó", "away": "O´Higgins"},
+          {"home": "Cobreloa", "away": "Huachipato"},
+          {"home": "A. Italiano", "away": "D. Iquique"},
+          {"home": "U. La Calera", "away": "U. Católica"},
+          {"home": "Everton Viña", "away": "Palestino"},
+          {"home": "U. de Chile", "away": "Cobresal"}
         ]
       },
 
       {
         "round": 2,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "U. Católica", "away": "Ñublense"},
+          {"home": "Coquimbo Unido", "away": "Copiapó"},
+          {"home": "Palestino", "away": "Cobreloa"},
+          {"home": "U. de Chile", "away": "A. Italiano"},
+          {"home": "D. Iquique", "away": "Everton Viña"},
+          {"home": "Huachipato", "away": "U. La Calera"},
+          {"home": "O´Higgins", "away": "Colo Colo"},
+          {"home": "Cobresal", "away": "U. Española"}
         ]
       },
 
       {
         "round": 3,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobreloa", "away": "Cobresal"},
+          {"home": "Palestino", "away": "U. Católica"},
+          {"home": "O´Higgins", "away": "Everton Viña"},
+          {"home": "U. Española", "away": "Coquimbo Unido"},
+          {"home": "Ñublense", "away": "A. Italiano"},
+          {"home": "Colo Colo", "away": "Huachipato"},
+          {"home": "U. La Calera", "away": "D. Iquique"},
+          {"home": "Copiapó", "away": "U. de Chile"}
         ]
       },
 
       {
         "round": 4,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobresal", "away": "Huachipato"},
+          {"home": "O´Higgins", "away": "Palestino"},
+          {"home": "U. Española", "away": "A. Italiano"},
+          {"home": "D. Iquique", "away": "Coquimbo Unido"},
+          {"home": "Colo Colo", "away": "U. de Chile"},
+          {"home": "Ñublense", "away": "Copiapó"},
+          {"home": "U. Católica", "away": "Everton Viña"},
+          {"home": "U. La Calera", "away": "Cobreloa"}
         ]
       },
 
       {
         "round": 5,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "D. Iquique", "away": "Cobresal"},
+          {"home": "Everton Viña", "away": "Ñublense"},
+          {"home": "U. de Chile", "away": "O´Higgins"},
+          {"home": "Cobreloa", "away": "U. Española"},
+          {"home": "Coquimbo Unido", "away": "Colo Colo"},
+          {"home": "Huachipato", "away": "Copiapó"},
+          {"home": "Palestino", "away": "U. La Calera"},
+          {"home": "U. Católica", "away": "A. Italiano"}
         ]
       },
 
       {
         "round": 6,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "Coquimbo Unido"},
+          {"home": "O´Higgins", "away": "D. Iquique"},
+          {"home": "Cobresal", "away": "Palestino"},
+          {"home": "Huachipato", "away": "U. Católica"},
+          {"home": "Colo Colo", "away": "Everton Viña"},
+          {"home": "Copiapó", "away": "U. La Calera"},
+          {"home": "Cobreloa", "away": "U. de Chile"},
+          {"home": "U. Española", "away": "Ñublense"}
         ]
       },
 
       {
         "round": 7,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Copiapó", "away": "D. Iquique"},
+          {"home": "Ñublense", "away": "Colo Colo"},
+          {"home": "U. Católica", "away": "Cobresal"},
+          {"home": "Everton Viña", "away": "A. Italiano"},
+          {"home": "U. La Calera", "away": "O´Higgins"},
+          {"home": "Coquimbo Unido", "away": "Cobreloa"},
+          {"home": "U. Española", "away": "U. de Chile"},
+          {"home": "Palestino", "away": "Huachipato"}
         ]
       },
 
       {
         "round": 8,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "U. Española", "away": "Everton Viña"},
+          {"home": "D. Iquique", "away": "U. Católica"},
+          {"home": "O´Higgins", "away": "Huachipato"},
+          {"home": "U. de Chile", "away": "Coquimbo Unido"},
+          {"home": "Ñublense", "away": "Palestino"},
+          {"home": "A. Italiano", "away": "U. La Calera"},
+          {"home": "Cobresal", "away": "Copiapó"},
+          {"home": "Colo Colo", "away": "Cobreloa"}
         ]
       },
 
       {
         "round": 9,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "U. La Calera", "away": "Everton Viña"},
+          {"home": "Cobresal", "away": "Ñublense"},
+          {"home": "U. Católica", "away": "Colo Colo"},
+          {"home": "Coquimbo Unido", "away": "O´Higgins"},
+          {"home": "Huachipato", "away": "D. Iquique"},
+          {"home": "Palestino", "away": "U. de Chile"},
+          {"home": "U. Española", "away": "Copiapó"},
+          {"home": "Cobreloa", "away": "A. Italiano"}
         ]
       },
 
       {
         "round": 10,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "O´Higgins", "away": "U. Española"},
+          {"home": "Copiapó", "away": "U. Católica"},
+          {"home": "Ñublense", "away": "Cobreloa"},
+          {"home": "Everton Viña", "away": "Coquimbo Unido"},
+          {"home": "Huachipato", "away": "U. de Chile"},
+          {"home": "Colo Colo", "away": "U. La Calera"},
+          {"home": "D. Iquique", "away": "Palestino"},
+          {"home": "A. Italiano", "away": "Cobresal"}
         ]
       },
 
       {
         "round": 11,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Palestino", "away": "Copiapó"},
+          {"home": "Coquimbo Unido", "away": "Huachipato"},
+          {"home": "Cobresal", "away": "Colo Colo"},
+          {"home": "U. Española", "away": "U. Católica"},
+          {"home": "U. La Calera", "away": "Ñublense"},
+          {"home": "U. de Chile", "away": "D. Iquique"},
+          {"home": "Cobreloa", "away": "Everton Viña"},
+          {"home": "O´Higgins", "away": "A. Italiano"}
         ]
       },
 
       {
         "round": 12,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Huachipato", "away": "U. Española"},
+          {"home": "U. Católica", "away": "O´Higgins"},
+          {"home": "Everton Viña", "away": "Cobresal"},
+          {"home": "Copiapó", "away": "Cobreloa"},
+          {"home": "A. Italiano", "away": "Colo Colo"},
+          {"home": "D. Iquique", "away": "Ñublense"},
+          {"home": "U. La Calera", "away": "U. de Chile"},
+          {"home": "Coquimbo Unido", "away": "Palestino"}
         ]
       },
 
       {
         "round": 13,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Everton Viña", "away": "Copiapó"},
+          {"home": "Cobreloa", "away": "D. Iquique"},
+          {"home": "U. de Chile", "away": "U. Católica"},
+          {"home": "Ñublense", "away": "O´Higgins"},
+          {"home": "Colo Colo", "away": "Palestino"},
+          {"home": "Cobresal", "away": "Coquimbo Unido"},
+          {"home": "Huachipato", "away": "A. Italiano"},
+          {"home": "U. Española", "away": "U. La Calera"}
         ]
       },
 
       {
         "round": 14,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Palestino", "away": "U. Española"},
+          {"home": "U. La Calera", "away": "Coquimbo Unido"},
+          {"home": "Huachipato", "away": "Everton Viña"},
+          {"home": "D. Iquique", "away": "Colo Colo"},
+          {"home": "U. Católica", "away": "Cobreloa"},
+          {"home": "O´Higgins", "away": "Cobresal"},
+          {"home": "Copiapó", "away": "A. Italiano"},
+          {"home": "U. de Chile", "away": "Ñublense"}
         ]
       },
 
       {
         "round": 15,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobreloa", "away": "O´Higgins"},
+          {"home": "U. Española", "away": "D. Iquique"},
+          {"home": "A. Italiano", "away": "Palestino"},
+          {"home": "Everton Viña", "away": "U. de Chile"},
+          {"home": "Ñublense", "away": "Huachipato"},
+          {"home": "Cobresal", "away": "U. La Calera"},
+          {"home": "Colo Colo", "away": "Copiapó"},
+          {"home": "Coquimbo Unido", "away": "U. Católica"}
         ]
       },
 
       {
         "round": 16,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobresal", "away": "U. de Chile"},
+          {"home": "Colo Colo", "away": "U. Española"},
+          {"home": "Coquimbo Unido", "away": "Ñublense"},
+          {"home": "D. Iquique", "away": "A. Italiano"},
+          {"home": "Huachipato", "away": "Cobreloa"},
+          {"home": "O´Higgins", "away": "Copiapó"},
+          {"home": "Palestino", "away": "Everton Viña"},
+          {"home": "U. Católica", "away": "U. La Calera"}
         ]
       },
 
       {
         "round": 17,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "U. de Chile"},
+          {"home": "Cobreloa", "away": "Palestino"},
+          {"home": "Colo Colo", "away": "O´Higgins"},
+          {"home": "Copiapó", "away": "Coquimbo Unido"},
+          {"home": "Everton Viña", "away": "D. Iquique"},
+          {"home": "U. Española", "away": "Cobresal"},
+          {"home": "U. La Calera", "away": "Huachipato"},
+          {"home": "Ñublense", "away": "U. Católica"}
         ]
       },
 
       {
         "round": 18,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Everton Viña", "away": "O´Higgins"},
+          {"home": "A. Italiano", "away": "Ñublense"},
+          {"home": "Cobresal", "away": "Cobreloa"},
+          {"home": "Coquimbo Unido", "away": "U. Española"},
+          {"home": "D. Iquique", "away": "U. La Calera"},
+          {"home": "Huachipato", "away": "Colo Colo"},
+          {"home": "U. Católica", "away": "Palestino"},
+          {"home": "U. de Chile", "away": "Copiapó"}
         ]
       },
 
       {
         "round": 19,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "U. Española"},
+          {"home": "Cobreloa", "away": "U. La Calera"},
+          {"home": "Coquimbo Unido", "away": "D. Iquique"},
+          {"home": "Copiapó", "away": "Ñublense"},
+          {"home": "Everton Viña", "away": "U. Católica"},
+          {"home": "Huachipato", "away": "Cobresal"},
+          {"home": "Palestino", "away": "O´Higgins"},
+          {"home": "U. de Chile", "away": "Colo Colo"}
         ]
       },
 
       {
         "round": 20,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "U. Católica"},
+          {"home": "Cobresal", "away": "D. Iquique"},
+          {"home": "Colo Colo", "away": "Coquimbo Unido"},
+          {"home": "Copiapó", "away": "Huachipato"},
+          {"home": "O´Higgins", "away": "U. de Chile"},
+          {"home": "U. Española", "away": "Cobreloa"},
+          {"home": "U. La Calera", "away": "Palestino"},
+          {"home": "Ñublense", "away": "Everton Viña"}
         ]
       },
 
       {
         "round": 21,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Coquimbo Unido", "away": "A. Italiano"},
+          {"home": "D. Iquique", "away": "O´Higgins"},
+          {"home": "Everton Viña", "away": "Colo Colo"},
+          {"home": "Palestino", "away": "Cobresal"},
+          {"home": "U. Católica", "away": "Huachipato"},
+          {"home": "U. de Chile", "away": "Cobreloa"},
+          {"home": "U. La Calera", "away": "Copiapó"},
+          {"home": "Ñublense", "away": "U. Española"}
         ]
       },
 
       {
         "round": 22,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "U. de Chile", "away": "U. Española"},
+          {"home": "A. Italiano", "away": "Everton Viña"},
+          {"home": "Cobreloa", "away": "Coquimbo Unido"},
+          {"home": "Cobresal", "away": "U. Católica"},
+          {"home": "Colo Colo", "away": "Ñublense"},
+          {"home": "D. Iquique", "away": "Copiapó"},
+          {"home": "Huachipato", "away": "Palestino"},
+          {"home": "O´Higgins", "away": "U. La Calera"}
         ]
       },
 
       {
         "round": 23,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobreloa", "away": "Colo Colo"},
+          {"home": "Coquimbo Unido", "away": "U. de Chile"},
+          {"home": "Copiapó", "away": "Cobresal"},
+          {"home": "Everton Viña", "away": "U. Española"},
+          {"home": "Huachipato", "away": "O´Higgins"},
+          {"home": "Palestino", "away": "Ñublense"},
+          {"home": "U. Católica", "away": "D. Iquique"},
+          {"home": "U. La Calera", "away": "A. Italiano"}
         ]
       },
 
       {
         "round": 24,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "Cobreloa"},
+          {"home": "Colo Colo", "away": "U. Católica"},
+          {"home": "Copiapó", "away": "U. Española"},
+          {"home": "D. Iquique", "away": "Huachipato"},
+          {"home": "Everton Viña", "away": "U. La Calera"},
+          {"home": "O´Higgins", "away": "Coquimbo Unido"},
+          {"home": "U. de Chile", "away": "Palestino"},
+          {"home": "Ñublense", "away": "Cobresal"}
         ]
       },
 
       {
         "round": 25,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobreloa", "away": "Ñublense"},
+          {"home": "Cobresal", "away": "A. Italiano"},
+          {"home": "Coquimbo Unido", "away": "Everton Viña"},
+          {"home": "Palestino", "away": "D. Iquique"},
+          {"home": "U. Católica", "away": "Copiapó"},
+          {"home": "U. de Chile", "away": "Huachipato"},
+          {"home": "U. Española", "away": "O´Higgins"},
+          {"home": "U. La Calera", "away": "Colo Colo"}
         ]
       },
 
       {
         "round": 26,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "O´Higgins"},
+          {"home": "Colo Colo", "away": "Cobresal"},
+          {"home": "Copiapó", "away": "Palestino"},
+          {"home": "D. Iquique", "away": "U. de Chile"},
+          {"home": "Everton Viña", "away": "Cobreloa"},
+          {"home": "Huachipato", "away": "Coquimbo Unido"},
+          {"home": "U. Católica", "away": "U. Española"},
+          {"home": "Ñublense", "away": "U. La Calera"}
         ]
       },
 
       {
         "round": 27,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Cobreloa", "away": "Copiapó"},
+          {"home": "Cobresal", "away": "Everton Viña"},
+          {"home": "Colo Colo", "away": "A. Italiano"},
+          {"home": "O´Higgins", "away": "U. Católica"},
+          {"home": "Palestino", "away": "Coquimbo Unido"},
+          {"home": "U. de Chile", "away": "U. La Calera"},
+          {"home": "U. Española", "away": "Huachipato"},
+          {"home": "Ñublense", "away": "D. Iquique"}
         ]
       },
 
       {
         "round": 28,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "Huachipato"},
+          {"home": "Coquimbo Unido", "away": "Cobresal"},
+          {"home": "Copiapó", "away": "Everton Viña"},
+          {"home": "D. Iquique", "away": "Cobreloa"},
+          {"home": "O´Higgins", "away": "Ñublense"},
+          {"home": "Palestino", "away": "Colo Colo"},
+          {"home": "U. Católica", "away": "U. de Chile"},
+          {"home": "U. La Calera", "away": "U. Española"}
         ]
       },
 
       {
         "round": 29,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "A. Italiano", "away": "Copiapó"},
+          {"home": "Cobreloa", "away": "U. Católica"},
+          {"home": "Cobresal", "away": "O´Higgins"},
+          {"home": "Colo Colo", "away": "D. Iquique"},
+          {"home": "Coquimbo Unido", "away": "U. La Calera"},
+          {"home": "Everton Viña", "away": "Huachipato"},
+          {"home": "U. Española", "away": "Palestino"},
+          {"home": "Ñublense", "away": "U. de Chile"}
         ]
       },
 
@@ -411,14 +411,14 @@
       {
         "round": 30,
         "matches": [
-          {"home": "Equipo 1", "away": "Equipo 2"},
-          {"home": "Equipo 3", "away": "Equipo 4"},
-          {"home": "Equipo 5", "away": "Equipo 6"},
-          {"home": "Equipo 7", "away": "Equipo 8"},
-          {"home": "Equipo 9", "away": "Equipo 10"},
-          {"home": "Equipo 11", "away": "Equipo 12"},
-          {"home": "Equipo 13", "away": "Equipo 14"},
-          {"home": "Equipo 15", "away": "Equipo 16"}
+          {"home": "Copiapó", "away": "Colo Colo"},
+          {"home": "D. Iquique", "away": "U. Española"},
+          {"home": "Huachipato", "away": "Ñublense"},
+          {"home": "O´Higgins", "away": "Cobreloa"},
+          {"home": "Palestino", "away": "A. Italiano"},
+          {"home": "U. Católica", "away": "Coquimbo Unido"},
+          {"home": "U. de Chile", "away": "Everton Viña"},
+          {"home": "U. La Calera", "away": "Cobresal"}
         ]
       }
     ]
