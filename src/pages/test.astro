@@ -14,9 +14,9 @@ import '../styles/global.css';
         <canvas id="myChart" width="1200" height="600" style="display: block; box-sizing: border-box; height: 600px; width: 1200px;"></canvas>
     </div>
       
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
       
-    <script>
+    <script is:inline>
         const ctx = document.getElementById('myChart').getContext('2d');
       
         const data = {
