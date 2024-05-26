@@ -1,16 +1,29 @@
 ---
+import evolution from '../data/evolution.json';
 
+const visible = true
 ---
 
 <div class="w-[1200px] items-center mx-auto">
     <canvas
         id="evolutionChart"
     ></canvas>
+    <button class="btn" id="toggleTeamA">Toggle Equipo A</button>
+    <button class="btn" id="toggleTeamB">Toggle Equipo B</button>
 </div>
 
-<script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<script is:inline>
+<script is:inline src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+    .clicked-legend-label {
+    color: blue;
+      background-color: rgba(144, 45, 45, 1);
+      border-radius: 15px;
+      padding: 5px;
+    }
+  </style>
+
+<script is:inline define:vars={{ evolution, visible }}>
     // Obtener el contexto del lienzo
     const ctx = document.getElementById("evolutionChart").getContext("2d");
 
@@ -18,82 +31,140 @@
         labels: Array.from({ length: 30 }, (_, i) => `${i + 1}°`),
         datasets: [
             {
-                label: "Equipo A",
-                data: [
-                    "3°",
-                    "3°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "2°",
-                    "3°",
-                    "2°",
-                    "1°",
-                    "1°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "1°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "2°",
-                    "3°",
-                    
-                ],
-                borderColor: "#3b82f6",
-                backgroundColor: "rgba(59, 130, 246, 0.2)",
+                label: "Audax Italiano",
+                data: evolution.teams.Audax_Italiano,
+                borderColor: "rgba(20, 90, 50, 1)",
+                backgroundColor: "rgba(82, 190, 128, 0.8)",
                 borderWidth: 2,
-                pointRadius: 5,
+                pointRadius: 2,
             },
             {
-                label: "Equipo B",
-                data: [
-                    "4°",
-                    "6°",
-                    "4°",
-                    "4°",
-                    "5°",
-                    "6°",
-                    "5°",
-                    "6°",
-                    "5°",
-                    "2°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "2°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                    "1°",
-                ],
-                borderColor: "#f87171",
+                label: "Cobreloa",
+                data: evolution.teams.Cobreloa,
+                borderColor: "rgba(126, 81, 9, 1)",
+                backgroundColor: "rgba(243, 156, 18, 0.8)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Cobresal",
+                data: evolution.teams.Cobresal,
+                borderColor: "rgba(243, 156, 18, 1)",
+                backgroundColor: "rgba(248, 196, 113, 0.8)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Colo Colo",
+                data: evolution.teams.Colo_Colo,
+                borderColor: "rgba(23, 32, 42, 1)",
+                backgroundColor: "rgba(28, 40, 51, 0.8)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Deportes Copiapó",
+                data: evolution.teams.Copiapo,
+                borderColor: "rgba(146, 43, 33, 1)",
+                backgroundColor: "rgba(245, 183, 177, 0.8)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Coquimbo Unido",
+                data: evolution.teams.Coquimbo_Unido,
+                borderColor: "rgba(173, 255, 47, 0.2)",
+                backgroundColor: "rgba(245, 183, 177, 0.8)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Deportes Iquique",
+                data: evolution.teams.Deportes_Iquique,
+                borderColor: "rgba(127, 255, 0, 0.2)",
                 backgroundColor: "rgba(248, 113, 113, 0.2)",
                 borderWidth: 2,
-                pointRadius: 5,
+                pointRadius: 2,
+            },
+            {
+                label: "Everton",
+                data: evolution.teams.Everton,
+                borderColor: "#0071bc",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Huachipato",
+                data: evolution.teams.Huachipato,
+                borderColor: "#1a3747",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Ñublense",
+                data: evolution.teams.Nublense,
+                borderColor: "#c51d34",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "O'Higgins",
+                data: evolution.teams.OHiggins,
+                borderColor: "#00b9e2",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Palestino",
+                data: evolution.teams.Palestino,
+                borderColor: "#004225",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Universidad Católica",
+                data: evolution.teams.U_Católica,
+                borderColor: "#6c4675",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Universidad de Chile",
+                data: evolution.teams.U_De_Chile,
+                borderColor: "#001a57",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Unión Española",
+                data: evolution.teams.Union_Espanola,
+                borderColor: "#e51d2e",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+            },
+            {
+                label: "Unión La Calera",
+                data: evolution.teams.U_La_Calera,
+                borderColor: "#dd6670",
+                backgroundColor: "rgba(248, 113, 113, 0.2)",
+                borderWidth: 2,
+                pointRadius: 2,
+                pointHoverBackgroundColor: "rgba(248, 113, 113, 0.1)",
+                pointHoverBorderColor: "rgba(248, 113, 113, 0.1)",
+                showLine: visible,
             },
         ],
     };
 
+    const clickedLabels = {};
     const options = {
         responsive: true,
         layout: {
@@ -163,11 +234,81 @@
         interaction: {
             intersect: false,
         },
+        plugins: {
+        legend: {
+          labels: {
+            // Custom styles for the legend labels
+            font: {
+              size: 14, // Font size
+              weight: 'bold', // Font weight
+              family: "'Arial', sans-serif" // Font family
+            },
+            color: '#333', // Font color
+            boxWidth: 20, // Width of the colored box representing the dataset
+            padding: 20, // Padding between the box and the label,
+            generateLabels: function(chart) {
+              const originalLabels = Chart.defaults.plugins.legend.labels.generateLabels(chart);
+              return originalLabels.map(label => {
+                const labelText = label.text;
+                if (clickedLabels[labelText]) {
+                  return {
+                    ...label,
+                    fontColor: '#555',
+                    fillStyle: label.strokeStyle,
+                    strokeStyle: '#CCC',
+                    lineWidth: 2,
+                    text: labelText,
+                    hidden: label.hidden,
+                    font: {
+                      size: 14,
+                      style: 'italic',
+                      weight: 'bold',
+                    },
+                    usePointStyle: true
+                  };
+                }
+                return label;
+              });
+            }
+          },
+          onClick: function(event, legendItem, legend) {
+            const index = legendItem.datasetIndex;
+            const ci = legend.chart;
+            const meta = ci.getDatasetMeta(index);
+
+            // Toggle the clicked state of the label
+            clickedLabels[legendItem.text] = !clickedLabels[legendItem.text];
+
+            // Update the chart
+            meta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;
+            ci.update();
+          },
+          onHover: (event, legendItem) => {
+            event.native.target.style.cursor = 'pointer';
+          }
+        },
+        tooltip: {
+          mode: 'nearest'
+        }
+      },
     };
 
     new Chart(ctx, {
         type: "line",
         data: data,
         options: options,
+    });
+
+     // Event listeners for buttons
+     document.getElementById('toggleTeamA').addEventListener('click', () => {
+      const dataset = evolutionChart.data.datasets[0];
+      dataset.hidden = !dataset.hidden;
+      evolutionChart.update();
+    });
+
+    document.getElementById('toggleTeamB').addEventListener('click', () => {
+      const dataset = evolutionChart.data.datasets[1];
+      dataset.hidden = !dataset.hidden;
+      evolutionChart.update();
     });
 </script>
