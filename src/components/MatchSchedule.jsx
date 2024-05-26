@@ -52,10 +52,10 @@ const MatchSchedule = () => {
               <div>
                 <div key={index}>
                   <h5 className='text-xs mb-1' >12/03/2024</h5>
-                  <div  className="flex justify-between bg-gray-100 p-2 rounded mb-3">
-                    <span>{match.home}</span>
-                    <span>vs</span>
-                    <span>{match.away}</span>
+                  <div className="flex items-center bg-gray-100 p-2 rounded mb-3 relative">
+                    <span className='flex-grow'>{match.home}</span>
+                    <span className='absolute left-1/2 transform -translate-x-1/2'>vs</span>
+                    <span className='flex-grow text-right'>{match.away}</span>
                   </div>
                 </div>
               </div>
@@ -64,13 +64,15 @@ const MatchSchedule = () => {
           <div>
             {secondColumnMatches.map((match, index) => (
               <div>
+              <div key={index}>
                 <h5 className='text-xs mb-1' >12/03/2024</h5>
-                <div key={index} className="flex justify-between bg-gray-100 p-2 rounded mb-3">
-                  <span>{match.home}</span>
-                  <span>vs</span>
-                  <span>{match.away}</span>
+                <div className="flex items-center bg-gray-100 p-2 rounded mb-3 relative">
+                  <span className='flex-grow'>{match.home}</span>
+                  <span className='absolute left-1/2 transform -translate-x-1/2'>vs</span>
+                  <span className='flex-grow text-right'>{match.away}</span>
                 </div>
               </div>
+            </div>
             ))}
           </div>
         </div>
